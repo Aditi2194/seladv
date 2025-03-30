@@ -11,7 +11,7 @@ class TestScenario1():
         homePage = HomePage(self.driver)
  
         #explicit wait time untill all the elements in the DOM are available.
-        homePage.verifyAllElementsLoaded(self.driver)
+        homePage.verify_all_elements_loaded(self.driver)
  
         #using the scrollIntoView() method to scroll to the WebElement ‘Explore all Integrations’
         #using the seamlessCollaborationText to scroll as using exploreAllIntegrationsLink goes out of view
